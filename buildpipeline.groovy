@@ -9,7 +9,6 @@ node(){
 	  sh """
 	  ls -lart
 	  date
-	  mvn clean install
 	""" 
 	}
 	stage('Code Review'){
